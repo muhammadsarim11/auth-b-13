@@ -2,13 +2,10 @@
 node_modules/
 jspm_packages/
 
-# Environment variables / secrets
+# Environment variables and secrets
 .env
 .env.*
 !.env.example
-
-
-package-lock.json
 
 # Logs
 logs/
@@ -40,7 +37,7 @@ coverage/
 .parcel-cache/
 *.tsbuildinfo
 
-# Uploads (user-generated files)
+# User uploads
 uploads/
 
 # Package manager tarballs
@@ -51,7 +48,7 @@ uploads/
 Thumbs.db
 desktop.ini
 
-# Editor / IDE
+# Editor and IDE files
 .vscode/*
 !.vscode/settings.json
 !.vscode/extensions.json
